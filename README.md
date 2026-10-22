@@ -30,7 +30,7 @@ npm run dev
 
 ## Переменные окружения
 
-В корне уже есть `.env`:
+В корне создать `.env`:
 
 ```dotenv
 VITE_API_PARTS='https://api.favorit-parts.ru'
@@ -42,14 +42,13 @@ VITE_API_KEY='00000000-0000-0000-0000-000000000001'
 - `npm run dev` — dev-сервер
 - `npm run build` — production-сборка
 - `npm run preview` — предпросмотр сборки
-- `npm run lint` — ESLint
 
 ## Структура
 
 ```
 src/
 ├── api/         # RTK Query API (hsPriceApi)
-├── components/  # Search, ListGroup, Table, Loader
+├── components/  # Search, ListGroup, Table
 ├── store/       # Redux store
 ├── utils/       # хуки (useDebounce), обработка ошибок
 ├── App.jsx
